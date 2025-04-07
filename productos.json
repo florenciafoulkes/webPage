@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "nombre": "Lilium",
+        "precio": 1500,
+        "imagen": "Imagenes/card1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Orquídea",
+        "precio": 2000,
+        "imagen": "Imagenes/card2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Phicus",
+        "precio": 1300,
+        "imagen": "Imagenes/card3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Kokedama",
+        "precio": 1780,
+        "imagen": "Imagenes/card4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Semillas",
+        "precio": 700,
+        "imagen": "Imagenes/card5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Peperomia",
+        "precio": 2400,
+        "imagen": "Imagenes/card6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Tutor musgo",
+        "precio": 1000,
+        "imagen": "Imagenes/card7.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Monstera",
+        "precio": 4000,
+        "imagen": "Imagenes/card8.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Cesped x metro",
+        "precio": 3000,
+        "imagen": "Imagenes/card9.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Maceta feliz",
+        "precio": 1500,
+        "imagen": "Imagenes/card10.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Bonsai",
+        "precio": 5200,
+        "imagen": "Imagenes/card11.png"
+    }
+]

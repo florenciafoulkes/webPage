@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html language="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planteate | Vivero online</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Conexión a Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <!--Logo-->
+            <a class="navbar-brand" href="Inicio.html"><img src="Imagenes/logoMenu.png" alt="logo marca"></a>
+
+            <!--Botón expansión-->
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#secciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="secciones">
+                <ul class="navbar-nav fs-5">
+                    <li class="nav-item">
+                        <a href="Inicio.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="TipsYCuidados.html">Tips y cuidados</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="Nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="buscar d-flex align-items-center">
+                    <input type="search" class="form-control d-inline-block w-auto">
+                    <button class="btn btn-success"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Presentación-->
+    <div class="quienesSomos d-block d-md-flex">
+        <div class="textosn1 col-12 col-md-6 col-lg-8">
+            <h2 class="titulosSN tituloQuienes animate__animated">¿Quiénes somos?</h2>
+            <p class="textoQuienes animate__animated">Mi pareja Raúl y yo, apasionados por la naturaleza, decidimos transformar nuestro amor por las plantas en
+                un negocio. Comenzamos con un pequeño vivero en nuestro patio trasero, cultivando plantas de excelencia
+                y ofreciendo un servicio personalizado a nuestros clientes. Con dedicación y esfuerzo, nuestro vivero
+                creció rápidamente, ganando reconocimiento por la calidad de nuestros productos. Hoy, nuestro
+                emprendimiento ha florecido a nivel nacional, con sucursales en varias ciudades y una reputación que nos
+                precede en todo el país.</p>
+        </div>
+        <div class="elipse1 col-12 col-md-6 col-lg-4">
+            <img class="imagenQuienes animate__animated" src="Imagenes/couple.jpeg" alt="dueños del negocio">
+        </div>
+    </div>
+
+    <!--Objetivos-->
+    <h2 class="titulosSN">Objetivos</h2>
+    <div class="objetivos d-block d-md-flex">
+        <div class="sostenibilidad" data-bs-toggle="modal" data-bs-target="#modalSostenibilidad">
+            <h3>Sostenibilidad</h3>
+        </div>
+        <div class="vinculos" data-bs-toggle="modal" data-bs-target="#modalVinculos">
+            <h3>Vínculos</h3>
+        </div>
+        <div class="crecimiento" data-bs-toggle="modal" data-bs-target="#modalCrecimiento">
+            <h3>Crecimiento</h3>
+        </div>
+    </div>
+
+    <!--Modales-->
+    <div class="modal fade" id="modalSostenibilidad" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header tituloObjetivos">
+                    <h2 class="modal-title" id="exampleModalLabel">Sostenibilidad</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body textoObjetivos">
+                    <img src="Imagenes/imgsustentabilidad.jpeg" alt="mujer cosechando">
+                    <p>Busca asegurar que nuestras acciones y decisiones actuales no comprometan la capacidad de las
+                        futuras generaciones para satisfacer sus propias necesidades. Esto implica un equilibrio entre
+                        el crecimiento económico, la protección del medio ambiente y el bienestar social, promoviendo
+                        prácticas responsables y conscientes que preserven los recursos naturales y fomenten una calidad
+                        de vida equitativa y duradera.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalVinculos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header tituloObjetivos">
+                    <h2 class="modal-title" id="exampleModalLabel">Vínculos</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body textoObjetivos">
+                    <img src="Imagenes/imgvinculos.jpeg" alt="dos mujeres juntando flores">
+                    <p>Cultivar un jardín no solo embellece nuestro entorno, sino que también fortalece nuestro vínculo
+                        con la naturaleza. Al cuidar de las plantas, aprendemos a valorar el ciclo de la vida y a
+                        conectarnos con el mundo natural de una manera más profunda y significativa.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalCrecimiento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header tituloObjetivos">
+                    <h2 class="modal-title" id="exampleModalLabel">Crecimiento</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body textoObjetivos">
+                    <img src="Imagenes/imgcrecimiento.jpeg" alt="escritorio con computadora y plantas">
+                    <p>La jardinería es una excelente manera de cultivar tanto plantas como el crecimiento personal. Al
+                        cuidar de un jardín, aprendemos a ser pacientes, ya que las plantas requieren tiempo y
+                        dedicación para crecer. Este proceso nos enseña a valorar el esfuerzo constante y a disfrutar de
+                        los pequeños logros. Además, trabajar con la naturaleza nos brinda una sensación de paz y
+                        conexión, ayudándonos a crecer como personas mientras vemos florecer nuestro entorno.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Equipo y logros-->
+    <h2 class="titulosSN">Nuestro equipo</h2>
+    <div class="d-block d-md-flex equipo">
+        <div class="imagenesEquipo col-11 col-md-4">
+            <img class="directora" src="Imagenes/directora.jpeg" alt="directora">
+            <img class="vicedirector" src="Imagenes/vicedirector.jpeg" alt="vicedirector">
+            <img class="communitymanager" src="Imagenes/communitymanager.jpeg" alt="community manager">
+        </div>
+        <div class="textoEquipo">
+            <p>
+                Nuestro equipo está liderado por la directora, una <strong>apasionada de la jardinería</strong> que ha dedicado su vida a cultivar plantas de excelencia. Junto a ella, su pareja, quien se desempeña como vicedirector, aporta su experiencia y dedicación para asegurar el <strong>crecimiento y éxito de nuestro vivero</strong>. Además, contamos con un amigo cercano que es nuestro community manager, encargado de <strong>conectar con nuestra comunidad</strong> y compartir la belleza de nuestras plantas a través de las redes sociales. Juntos, formamos un equipo comprometido con la naturaleza y la satisfacción de nuestros clientes.
+            </p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="piedepagina">
+        <div>
+            <ul>
+                <h4>Navegación</h4>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="TipsYCuidados.html">Tips y cuidados</a></li>
+                <li><a href="Nosotros.html">Sobre nosotros</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <h4>Contacto</h4>
+                <li><a href="#"><i class="bi bi-whatsapp"></i> 3492-333333</a></li>
+                <li>
+                    <address>Acuña 49, Rafaela, Santa Fe, Argentina</address>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="redesfoot">
+                <h4>Redes</h4>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="animaciones.js"></script>
+
+</body>
+
+</html>
